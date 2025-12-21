@@ -1,3 +1,32 @@
 {
-    "movies": []
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Complete assignment",
+      "description": "Finish the Express API assignment",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "name": "Buy groceries",
+      "description": "Milk, bread, eggs",
+      "completed": true,
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "name": "Learn Node.js",
+      "description": "Study Express.js and REST APIs",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 4,
+      "name": "Study for exam",
+      "description": "Prepare for the midterm exam",
+      "completed": false,
+      "priority": "high"
+    }
+  ]
 }
