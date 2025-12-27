@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Middleware to parse JSON bodies
-app.use(express.json());
+// app.use(express.json());
 
 const DATA_FILE = path.join(__dirname, 'data.json');
 
