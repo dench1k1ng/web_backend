@@ -221,9 +221,11 @@ DELETE http://localhost:3000/tasks/1
 ## 📁 Project Structure
 
 ```
-assignment_1/
+assignment_3/
+├── db.js          # Database connection file
+├── models
+│   └── Task.js    # Task model
 ├── server.js      # Main server file with all routes
-├── data.json      # JSON file for data storage
 ├── package.json   # Project dependencies
 └── README.md      # Project documentation
 ```

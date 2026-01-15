@@ -1,9 +1,10 @@
-// const fetch = require('node-fetch'); // Native fetch is available in Node 18+
+// Native fetch is available in Node 18+
 
 
 const API_URL = 'http://localhost:3000/tasks';
 
 async function runTests() {
+    console.log('DEBUG: Script started. Attempting to verify API...');
     console.log('Starting Verification...');
 
     // 1. Create a Task

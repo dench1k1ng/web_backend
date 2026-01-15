@@ -1,10 +1,11 @@
 const express = require('express');
+require('dotenv').config();
 const path = require('path');
 const connectDB = require('./db');
 const Task = require('./models/Task');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Connect to database
 connectDB();
