@@ -1,5 +1,5 @@
 const express = require('express');
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const path = require('path');
 const connectDB = require('./db');
 const Task = require('./models/Task');
